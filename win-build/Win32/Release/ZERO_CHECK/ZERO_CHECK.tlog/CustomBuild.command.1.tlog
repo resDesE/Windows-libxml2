@@ -1,0 +1,10 @@
+^E:\VS17PROJECT\LIBXML2\LIBXML2-2.12.3\WIN-BUILD\CMAKEFILES\FA8CB6B9767A4185CEAF4D90F62D4D89\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files (x86)\bin\cmake.exe" -SE:/vs17project/libxml2/libxml2-2.12.3 -BE:/vs17project/libxml2/libxml2-2.12.3/win-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/vs17project/libxml2/libxml2-2.12.3/win-build/libxml2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+D:/Program Files (x86)/share/cmake-3.28/Modules/BasicConfigVersion-ExactVersion.cmake.in
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakeCInformation.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CPack.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CPackComponent.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckFunctionExists.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckIncludeFiles.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckLinkerFlag.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckSourceCompiles.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckStructHasMember.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/CheckSymbolExists.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/FindPackageMessage.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/FindPkgConfig.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/FindThreads.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Internal/CheckLinkerFlag.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Platform/Windows.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+D:/Program Files (x86)/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+D:/Program Files (x86)/share/cmake-3.28/Templates/CPackConfig.cmake.in
+E:/vs17project/libxml2/libxml2-2.12.3/CMakeLists.txt
+E:/vs17project/libxml2/libxml2-2.12.3/include/libxml/xmlversion.h.in
+E:/vs17project/libxml2/libxml2-2.12.3/include/win32config.h
+E:/vs17project/libxml2/libxml2-2.12.3/libxml-2.0.pc.in
+E:/vs17project/libxml2/libxml2-2.12.3/libxml2-config.cmake.cmake.in
+E:/vs17project/libxml2/libxml2-2.12.3/win-build/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+E:/vs17project/libxml2/libxml2-2.12.3/win-build/CMakeFiles/3.28.1/CMakeRCCompiler.cmake
+E:/vs17project/libxml2/libxml2-2.12.3/win-build/CMakeFiles/3.28.1/CMakeSystem.cmake
+E:/vs17project/libxml2/libxml2-2.12.3/xml2-config.in

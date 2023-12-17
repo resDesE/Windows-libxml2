@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\buf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\c14n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\catalog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\chvalid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\debugXML.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\encoding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\entities.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\globals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\HTMLparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\HTMLtree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\legacy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\nanoftp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\nanohttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\parserInternals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\pattern.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\relaxng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\SAX.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\SAX2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\schematron.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\threads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\uri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xinclude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xlink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlIO.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlmemory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlmodule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlreader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlregexp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlsave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlschemas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlschemastypes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlunicode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xmlwriter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xpath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xpointer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\xzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\c14n.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\catalog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\chvalid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\debugXML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\entities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\HTMLparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\HTMLtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\nanoftp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\nanohttp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\parserInternals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\pattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\relaxng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\SAX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\SAX2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\schemasInternals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\schematron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\threads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\uri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\valid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xinclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xlink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlautomata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlexports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlmemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlmodule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlregexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlsave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlschemas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlschemastypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlunicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xpath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xpathInternals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xpointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\vs17project\libxml2\libxml2-2.12.3\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\vs17project\libxml2\libxml2-2.12.3\win32\libxml2.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6B5DB820-E601-381E-916C-BD6AA372A28D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{28023F6F-7C63-3C54-861F-96E417D99793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

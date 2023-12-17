@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D44C0778-BB72-3721-806A-A91D41DF3F40}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\fa8cb6b9767a4185ceaf4d90f62d4d89\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\bin\cmake.exe" -SE:/vs17project/libxml2/libxml2-2.12.3 -BE:/vs17project/libxml2/libxml2-2.12.3/win-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/vs17project/libxml2/libxml2-2.12.3/win-build/libxml2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Program Files (x86)\share\cmake-3.28\Modules\BasicConfigVersion-ExactVersion.cmake.in;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CPack.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CPackComponent.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckLinkerFlag.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckStructHasMember.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPkgConfig.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindThreads.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckLinkerFlag.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files (x86)\share\cmake-3.28\Templates\CPackConfig.cmake.in;E:\vs17project\libxml2\libxml2-2.12.3\CMakeLists.txt;E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlversion.h.in;E:\vs17project\libxml2\libxml2-2.12.3\include\win32config.h;E:\vs17project\libxml2\libxml2-2.12.3\libxml-2.0.pc.in;E:\vs17project\libxml2\libxml2-2.12.3\libxml2-config.cmake.cmake.in;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeSystem.cmake;E:\vs17project\libxml2\libxml2-2.12.3\xml2-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\bin\cmake.exe" -SE:/vs17project/libxml2/libxml2-2.12.3 -BE:/vs17project/libxml2/libxml2-2.12.3/win-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/vs17project/libxml2/libxml2-2.12.3/win-build/libxml2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Program Files (x86)\share\cmake-3.28\Modules\BasicConfigVersion-ExactVersion.cmake.in;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CPack.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CPackComponent.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckLinkerFlag.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckStructHasMember.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPkgConfig.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindThreads.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckLinkerFlag.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files (x86)\share\cmake-3.28\Templates\CPackConfig.cmake.in;E:\vs17project\libxml2\libxml2-2.12.3\CMakeLists.txt;E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlversion.h.in;E:\vs17project\libxml2\libxml2-2.12.3\include\win32config.h;E:\vs17project\libxml2\libxml2-2.12.3\libxml-2.0.pc.in;E:\vs17project\libxml2\libxml2-2.12.3\libxml2-config.cmake.cmake.in;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeSystem.cmake;E:\vs17project\libxml2\libxml2-2.12.3\xml2-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files (x86)\bin\cmake.exe" -SE:/vs17project/libxml2/libxml2-2.12.3 -BE:/vs17project/libxml2/libxml2-2.12.3/win-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/vs17project/libxml2/libxml2-2.12.3/win-build/libxml2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Program Files (x86)\share\cmake-3.28\Modules\BasicConfigVersion-ExactVersion.cmake.in;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CPack.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CPackComponent.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckLinkerFlag.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckStructHasMember.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPkgConfig.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindThreads.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckLinkerFlag.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files (x86)\share\cmake-3.28\Templates\CPackConfig.cmake.in;E:\vs17project\libxml2\libxml2-2.12.3\CMakeLists.txt;E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlversion.h.in;E:\vs17project\libxml2\libxml2-2.12.3\include\win32config.h;E:\vs17project\libxml2\libxml2-2.12.3\libxml-2.0.pc.in;E:\vs17project\libxml2\libxml2-2.12.3\libxml2-config.cmake.cmake.in;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeSystem.cmake;E:\vs17project\libxml2\libxml2-2.12.3\xml2-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files (x86)\bin\cmake.exe" -SE:/vs17project/libxml2/libxml2-2.12.3 -BE:/vs17project/libxml2/libxml2-2.12.3/win-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/vs17project/libxml2/libxml2-2.12.3/win-build/libxml2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Program Files (x86)\share\cmake-3.28\Modules\BasicConfigVersion-ExactVersion.cmake.in;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CPack.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CPackComponent.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckLinkerFlag.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckStructHasMember.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindPkgConfig.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\FindThreads.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckLinkerFlag.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Program Files (x86)\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files (x86)\share\cmake-3.28\Templates\CPackConfig.cmake.in;E:\vs17project\libxml2\libxml2-2.12.3\CMakeLists.txt;E:\vs17project\libxml2\libxml2-2.12.3\include\libxml\xmlversion.h.in;E:\vs17project\libxml2\libxml2-2.12.3\include\win32config.h;E:\vs17project\libxml2\libxml2-2.12.3\libxml-2.0.pc.in;E:\vs17project\libxml2\libxml2-2.12.3\libxml2-config.cmake.cmake.in;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\3.28.1\CMakeSystem.cmake;E:\vs17project\libxml2\libxml2-2.12.3\xml2-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\vs17project\libxml2\libxml2-2.12.3\win-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\libxml2.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\runsuite.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\runtest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\runxmlconf.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\testModule.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\testThreads.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\testapi.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\testchar.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\testdict.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\testlimits.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\testparser.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\testrecurse.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\xmlcatalog.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\xmllint.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vs17project\libxml2\libxml2-2.12.3\win-build\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
